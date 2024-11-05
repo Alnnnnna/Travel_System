@@ -1,29 +1,33 @@
 <html>
 <head>
-<title>Alan Liu</title>
-<link rel = "stylesheet", href = "./travel_recommendation.css">
+  <title>Alan Liu</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
 </head>
-
-
-
 <body>
-    <nav><h1>TravelBoom</h1>
-<ul>
-    <li><a href = './travel_recommendation.html'>Home</a></li>
-    <li><a href = './aboutUs.html'>About us</a></li>
-    <li><a href = './contactUs.html'>Contact Us</a></li>
-    <li><input type = "text", id='userSearch', placeholder = 'Enter a destination or Keyword'></li>
-    <button id = 'btnSearch'>Search</button>
-    <button id = 'btnClear'>Clear</button></li>
-</ul>
-</nav>
-
-<div>
-    <h1 class = 'Homepagetitle'>EXPLORE<br>DREAM<br>DESTINATION</h1>
-    <p class = 'HomepagePara'>It encourages Exploration of unfamiliar<br>territories, embracing diverse cultures and<br>lanscapes, while pursing the desired destination that captivates the heart and<br>ignites a sense of wonder</p>
-    <button class = 'btnBook'>BookNow</button>
-</div>
-
-
+  <nav>
+    <h1>TravelBoom</h1>
+    <ul>
+      <li><a href='./travel_recommendation.html'>Home</a></li>
+      <li><a href='./aboutUs.html'>About us</a></li>
+      <li><a href='./contactUs.html'>Contact Us</a></li>
+      <li>
+        <input type="text" id="userSearch" placeholder="Enter a destination or Keyword">
+        <button id="btnSearch">Search</button>
+        <button id="btnClear">Clear</button>
+      </li>
+    </ul>
+  </nav>
+  
+  <div>
+    <h1 class="Homepagetitle">EXPLORE<br>DREAM<br>DESTINATION</h1>
+    <p class="HomepagePara">It encourages Exploration of unfamiliar<br>territories, embracing diverse cultures and<br>landscapes, while pursuing the desired destination that captivates the heart and<br>ignites a sense of wonder.</p>
+    <button class="btnBook">Book Now</button>
+  </div>
+  
+  <div class="searchCondition">
+    <div id="result"></div>
+  </div>
+  
+  <script src="./travel_recommendation.js"></script>
 </body>
 </html>

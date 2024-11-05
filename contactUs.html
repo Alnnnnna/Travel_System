@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Alan Liu</title>
+<link rel = "stylesheet", href = "./travel_recommendation.css">
+</head>
+
+
+
+
+
+
+
+<body>
+    <nav><h1>TravelBoom</h1>
+<ul>
+    <li><a href = './travel_recommendation.html'>Home</a></li>
+    <li><a href = './aboutUs.html'>About us</a></li>
+    <li><a href = './contactUs.html'>Contact Us</a></li>
+    <li><input type = "text", id='userSearch', placeholder = 'Enter a destination or Keyword'></li>
+    <button id = 'btnSearch'>Search</button>
+    <button id = 'btnClear'>Clear</button></li>
+</ul>
+</nav>
+
+<div>
+    <h1 class = 'contactTitle'>CONTACT US</h1>
+    <p class = 'words'>Get in touch</p>
+    <form id = "contactForm">
+        <div>
+        <label for="name"><font color="white">Name</font></label>
+        <input  type='name', class = 'name', name='name', required, placeholder= 'Your Name here', class = 'myinput'></input>
+        <div>
+
+        <div>
+        <label for="email"><font color="white">Email</font></label>
+        <input  type='email', class = 'email', name='email', required, class = 'myinput'></input>
+        <div>
+
+
+        <div>
+        <label for="message"><font color="white">Message</font></label>
+        <input  type='message' class = 'message' name='message', class = 'myinput'></input>
+        <div>
+
+        <button type="submit" onclick="thankyou()">Submit</button>
+        <script>
+            function thankyou(){
+                alert('Thank you for contacting us!')
+            }
+        </script>
+
+    </form>
+
+
+</div>   
+
+
+</body>
