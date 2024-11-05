@@ -1,0 +1,101 @@
+body{
+    background-image:url('./Chicago1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+.Homepagetitle{
+    color: #f0f0f0;
+    display : left;
+    margin-left: 80px;
+    margin-top: 180px;
+    font-family: 'Aerial', sans-serif;
+    font-weight: 900, bolder;
+
+
+}
+
+.Homepagepara{
+    color:#f0f0f0;
+    margin-top :40;
+    margin-left: 80px;
+    font-weight: 700;
+
+}
+
+
+.btnBook{
+    background-color: rgb(17, 213, 213);
+    color:#000002;
+    margin-top: 40;
+    margin-left: 90px;
+    font-weight: 100, bolder;
+}
+
+.aboutUs{
+    color: #f0f0f0;
+    display : left;
+    margin-left: 80px;
+    
+    font-family: 'Aerial', sans-serif;
+    font-weight: 900, bolder;
+}
+
+.teamIntro{
+    color:#f0f0f0;
+    margin-top :40;
+    margin-left: 80px;
+    font-weight: 700;
+}
+
+.ourTeam{
+    color:#f0f0f0;
+    margin-top :40;
+    margin-left: 80px;
+    font-weight: 700;
+}
+
+.teamMember{
+    display: inline;
+    color:#f0f0f0;
+    margin-top :40;
+    margin-left: 80px;
+    font-weight: 700;
+}
+
+.teamMember1{
+    color:#f0f0f0;
+
+    margin-left: 80px;
+    font-weight: 400;
+
+}
+
+.headPic1{
+    width : 30;
+    height : 30l;
+}
